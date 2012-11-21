@@ -5,7 +5,7 @@ Developed by [Ashley Nolan](https://github.com/dragongraphics) & [Zander Martine
 To get the latest version of Kickoff, please visit the repo at [here](http://github.com/tmwagency/kickoff)
 
 ##Examples
-<a href="http://tmwagency.github.com/kickoff/">Examples</a>
+<a href="http://tmwagency.github.com/kickoff/examples/">Examples</a>
 <ul>
 	<li><a href="http://tmwagency.github.com/kickoff/examples/carousel.html" title="Carousel">Carousel</a></li>
 	<li><a href="http://tmwagency.github.com/kickoff/examples/elements.html" title="Elements">Elements</a></li>
