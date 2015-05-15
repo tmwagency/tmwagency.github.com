@@ -1,14 +1,8 @@
----
-layout: default
-
-redirect_to: http://trykickoff.github.io/blog/index.html
----
-
-{% for post in site.posts %}
-
-	<article>
-		<h1><a href="{{ post.url }}" title="Read {{ post.title }}">{{ post.title }}</a></h1>
-		{{ post.content }}
-	</article>
-
-{% endfor %}
+<!DOCTYPE html>
+<meta charset=utf-8>
+<title>Redirecting...</title>
+<link rel=canonical href="http://trykickoff.github.io/blog/index.html">
+<meta http-equiv=refresh content="0; url=http://trykickoff.github.io/blog/index.html">
+<h1>Redirecting...</h1>
+<a href="http://trykickoff.github.io/blog/index.html">Click here if you are not redirected.</a>
+<script>location='http://trykickoff.github.io/blog/index.html'</script>
