@@ -1,8 +1,578 @@
-<!DOCTYPE html>
-<meta charset=utf-8>
-<title>Redirecting...</title>
-<link rel=canonical href="http://trykickoff.github.io/demos/typography.html">
-<meta http-equiv=refresh content="0; url=http://trykickoff.github.io/demos/typography.html">
-<h1>Redirecting...</h1>
-<a href="http://trykickoff.github.io/demos/typography.html">Click here if you are not redirected.</a>
-<script>location='http://trykickoff.github.io/demos/typography.html'</script>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+			
+		
+		
+			
+			
+				
+			
+			
+		
+		<title>Typography - Kickoff Demos</title>
+
+		
+		<meta name="description" content="See Kickoff's typography demo">
+		<meta name="twitter:description" content="See Kickoff's typography demo - Kickoff is a lightweight front-end framework for creating scalable, responsive sites." />
+		<meta property="og:description" content="See Kickoff's typography demo - Kickoff is a lightweight front-end framework for creating scalable, responsive sites." />
+		
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/kickoff/css/kickoff.css">
+		
+		<!-- <script type="text/javascript" src="//use.typekit.net/qdb7ikf.js"></script> --> <!-- TMW shared account -->
+		<script src="//use.typekit.net/alt7ogo.js"></script> <!-- Zander's personal CC account -->
+		<script>try{Typekit.load();}catch(e){}</script>
+
+		<meta name="apple-mobile-web-app-title" content="Kickoff">
+		<meta name="application-name" content="Kickoff">
+		<link rel="shortcut icon" href="/kickoff/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon-precomposed" href="/kickoff/apple-touch-icon.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/kickoff/apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/kickoff/apple-touch-icon-60x60.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/kickoff/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/kickoff/apple-touch-icon-76x76.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/kickoff/apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/kickoff/apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/kickoff/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/kickoff/apple-touch-icon-152x152.png" />
+		<link rel="icon" type="image/png" href="/kickoff/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="/kickoff/favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="/kickoff/favicon-32x32.png" sizes="32x32">
+		<meta name="msapplication-TileColor" content="#181830">
+		<meta name="msapplication-TileImage" content="/kickoff/mstile-144x144.png">
+
+		<!-- Twitter -->
+		<meta name="twitter:site" content="@tmwKickoff">
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Typography" />
+		<meta name="twitter:image" content="http://tmwagency.github.io/kickoff/apple-touch-icon-152x152.png" />
+		<meta name="twitter:url" content="http://tmwagency.github.io/demos/typography.html" />
+
+		<!-- Open Graph data -->
+		<meta property="og:title" content="Typography" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="http://tmwagency.github.io/demos/typography.html" />
+		<meta property="og:image" content="http://tmwagency.github.io/kickoff/apple-touch-icon-152x152.png" />
+	</head>
+
+
+	<body>
+
+		<!--  === MASTHEAD ===  -->
+		<header class="masthead masthead-all clearfix">
+	<div class="l-container">
+		<h1 class="logo logoStyle"><a href="/kickoff/" data-trak='{"category":"Masthead link","action":"Logo"}'>Kick<span>off</span></a></h1>
+
+		<nav class="nav">
+			<ul class="main-nav">
+				<li><a href="/kickoff/learn/" data-trak='{"category":"Masthead link","action":"Learn"}'>Getting Started</a></li>
+				<li><a href="/kickoff/demos/" class="is-active" data-trak='{"category":"Masthead link","action":"Demos"}'>Demos</a></li>
+				<li><a href="/kickoff/learn/get.html" data-trak='{"category":"Masthead link","action":"Download"}'>Download</a></li>
+				<!-- <li><a href="/kickoff/blog">Blog</a></li> -->
+				<li><a href="https://github.com/tmwagency/kickoff/" target="_blank" data-icon-after="&#59157;" data-trak='{"category":"Masthead link","action":"Repo"}'>View on Github</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+
+		<!--  === MAIN CONTENT ===  -->
+		<section role="main">
+			<section class="wideBoy primary wideBoy--dark text-centre">
+	<div class="l-container">
+		<h1 class="entry--title">Typography</h1>
+		
+	</div>
+</section>
+
+<div class="l-container">
+	<div class="g-row entry">
+		<div class="g-span3 g-col">
+			<ul class="sidebar-nav unstyled">
+				<li><a href="/kickoff/demos/" data-trak='{"category":"Demo nav","action":"Introduction"}'>Introduction</a></li>
+<li><a href="/kickoff/demos/typography.html" class="is-active" data-trak='{"category":"Demo nav","action":"Typography"}'>Typography</a>
+		
+		<ul class="sidebar-subnav unstyled">
+			<li><a href="#hp">Headings and paragraphs</a></li>
+			<li><a href="#tuc">Text utility classes</a></li>
+			<li><a href="#tls">Text-level semantics</a></li>
+			<li><a href="#bq">Blockquote</a></li>
+			<li><a href="#ol">Ordered lists</a></li>
+			<li><a href="#ul">Unordered lists</a></li>
+			<li><a href="#uul">Unstyled lists</a></li>
+			<li><a href="#dl">Definition lists</a></li>
+			<li><a href="#hdl">Horizontal definition list</a></li>
+		</ul>
+		
+	</li>
+<li><a href="/kickoff/demos/components.html" data-trak='{"category":"Demo nav","action":"Components"}'>Components</a>
+		
+	</li>
+<li><a href="/kickoff/demos/forms.html" data-trak='{"category":"Demo nav","action":"Forms"}'>Forms</a>
+		
+	</li>
+<li><a href="/kickoff/demos/grids.html" data-trak='{"category":"Demo nav","action":"Grids"}'>Grids</a>
+		
+	</li>
+
+			</ul>
+		</div>
+		<div class="g-span9 g-col">
+			<article>
+				<p><a name="hp"></a></p>
+
+<div class="demo">
+    <a href="https://github.com/tmwagency/kickoff/blob/master/scss/_typography.scss" class="demo-src">_typography.scss</a>
+
+    <div class="demo-visual">
+        <h1>Heading 1 <small>small</small></h1>
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus perspiciatis labore quis, qui, animi hic autem est aut beatae sit!</p>
+        <h3>Heading 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis modi a numquam commodi provident amet.</p>
+        <h4>Heading 4</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut error voluptates optio dolores vel libero. Odit hic nostrum a tempora, facere aut, quia.</p>
+        <h5>Heading 5</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, reiciendis.</p>
+        <h6>Heading 6</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, repellendus illum ad.</p>
+    </div>
+    <div class="demo-code">
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1&gt;</span>Heading 1<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia fuga ducimus dolorem suscipit.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;h2&gt;</span>Heading 2<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus perspiciatis labore quis, qui, animi hic autem est aut beatae sit!<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;h3&gt;</span>Heading 3<span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis modi a numquam commodi provident amet.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;h4&gt;</span>Heading 4<span class="nt">&lt;/h4&gt;</span>
+<span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut error voluptates optio dolores vel libero. Odit hic nostrum a tempora, facere aut, quia.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;h5&gt;</span>Heading 5<span class="nt">&lt;/h5&gt;</span>
+<span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, reiciendis.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;h6&gt;</span>Heading 6<span class="nt">&lt;/h6&gt;</span>
+<span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, repellendus illum ad.<span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+    </div>
+</div>
+
+<hr>
+
+<p><a name="tuc"></a></p>
+
+<h3>Text utility classes</h3>
+
+<p>We include some helpful utility classes if you need to align your text quickly. Use <code>.text-centre</code> or  <code>.text-center</code> to centre your text. Use <code>.text-right</code> to right align. Or use <code>.text-left</code> to left align.</p>
+
+<p>As we are British, we decided to include two spellings for our centred text : <code>.text-centre</code> and <code>.text-center</code> — use whichever one you prefer..</p>
+
+<div class="demo">
+    <a href="https://github.com/tmwagency/kickoff/blob/master/scss/_typography.scss" class="demo-src">_typography.scss</a>
+
+    <div class="demo-visual">
+
+        <p class="text-left"><b>Left aligned: </b>Lorem ipsum dolor sit amet.</p>
+        <p class="text-centre"><b>Centre aligned: </b>Lorem ipsum dolor sit amet.</p>
+        <p class="text-right"><b>Right aligned: </b>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="demo-code">
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-left&quot;</span><span class="nt">&gt;</span>Lorem ipsum dolor sit amet.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-centre&quot;</span><span class="nt">&gt;</span>Lorem ipsum dolor sit amet.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-right&quot;</span><span class="nt">&gt;</span>Lorem ipsum dolor sit amet.<span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+    </div>
+</div>
+
+<hr>
+
+<p><a name="tls"></a></p>
+
+<h3>Text-level semantics</h3>
+
+<div class="g-row">
+    <div class="g-span6 g-col">
+        <p>
+            The <a href="#">a element</a> example<br>
+            The <abbr title="Title text">abbr element</abbr> example<br>
+            The <b>b element</b> example<br>
+            The <cite>cite element</cite> example<br>
+            The <code>code element</code> example<br>
+            The <del>del element</del> example<br>
+            The <dfn>dfn element</dfn> example<br>
+            The <em>em element</em> example<br>
+            The <i>i element</i> example<br>
+            The img element <img src="http://placekitten.com/16/16" alt=""> example<br>
+            The <ins>ins element</ins> example<br>
+            The <kbd>kbd element</kbd> example
+        </p>
+    </div>
+    <div class="g-span6 g-col">
+        <p>
+            The <mark>mark element</mark> example<br>
+            The <q>q element <q>inside</q> a q element</q> example <br>
+            The <s>s element</s> example<br>
+            The <samp>samp element</samp> example<br>
+            The <small>small element</small> example<br>
+            The <span>span element</span> example<br>
+            The <strike>strike element</strike> example<br>
+            The <strong>strong element</strong> example<br>
+            The <sub>sub element</sub> example<br>
+            The <sup>sup element</sup> example<br>
+            The <var>var element</var> example<br>
+            The <u>u element</u> example
+        </p>
+    </div>
+</div>
+
+<hr>
+
+<p><a name="bq"></a></p>
+
+<div class="demo">
+    <a href="https://github.com/tmwagency/kickoff/blob/master/scss/_typography.scss" class="demo-src">_typography.scss</a>
+
+    <div class="demo-visual">
+        <h3>Blockquote</h3>
+        <blockquote>
+            <p>Of all the gin joints in all the towns in all the world, she walks into mine.</p>
+            <small>Rick Blaine</small>
+        </blockquote>
+    </div>
+    <div class="demo-code">
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;blockquote&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Of all the gin joints in all the towns in all the world, she walks into mine.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;small&gt;</span>Rick Blaine<span class="nt">&lt;/small&gt;</span>
+<span class="nt">&lt;/blockquote&gt;</span></code></pre></div>
+
+    </div>
+</div>
+
+<hr>
+
+<p><a name="ol"></a></p>
+
+<div class="demo">
+    <a href="https://github.com/tmwagency/kickoff/blob/master/scss/_typography.scss" class="demo-src">_typography.scss</a>
+
+    <div class="demo-visual">
+        <h3>Ordered lists</h3>
+        <ol>
+            <li>list item 1</li>
+            <li>list item 1
+            <ol>
+                <li>list item 2</li>
+                <li>list item 2
+                <ol>
+                    <li>list item 3</li>
+                    <li>list item 3</li>
+                </ol>
+                </li>
+                <li>list item 2</li>
+                <li>list item 2</li>
+            </ol>
+            </li>
+            <li>list item 1</li>
+            <li>list item 1</li>
+        </ol>
+    </div>
+    <div class="demo-code">
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ol&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 1<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 1
+    <span class="nt">&lt;ol&gt;</span>
+        <span class="nt">&lt;li&gt;</span>list item 2<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>list item 2
+        <span class="nt">&lt;ol&gt;</span>
+            <span class="nt">&lt;li&gt;</span>list item 3<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>list item 3<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ol&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>list item 2<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>list item 2<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ol&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 1<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 1<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span></code></pre></div>
+
+    </div>
+</div>
+
+<hr>
+
+<p><a name="ul"></a></p>
+
+<div class="demo">
+    <a href="https://github.com/tmwagency/kickoff/blob/master/scss/_typography.scss" class="demo-src">_typography.scss</a>
+
+    <div class="demo-visual">
+        <h3>Unordered lists</h3>
+        <ul>
+            <li>list item 1</li>
+            <li>list item 2
+            <ul>
+                <li>list item 2a</li>
+                <li>list item 2b
+                <ul>
+                    <li>list item 2bi</li>
+                    <li>list item 2bii</li>
+                </ul>
+                </li>
+                <li>list item 2c</li>
+                <li>list item 2d</li>
+            </ul>
+            </li>
+            <li>list item 3</li>
+            <li>list item 4</li>
+        </ul>
+    </div>
+    <div class="demo-code">
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 1<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 2
+    <span class="nt">&lt;ul&gt;</span>
+        <span class="nt">&lt;li&gt;</span>list item 2a<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>list item 2b
+        <span class="nt">&lt;ul&gt;</span>
+            <span class="nt">&lt;li&gt;</span>list item 2bi<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>list item 2bii<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>list item 2c<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>list item 2d<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 3<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 4<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></code></pre></div>
+
+    </div>
+</div>
+
+<hr>
+
+<p><a name="usul"></a></p>
+
+<h3>Unstyled [un]ordered lists</h3>
+
+<p>Add an <code>.unstyled</code> class to any <code>&lt;ul></code> or <code>&lt;ol></code> to remove the default bullets, numbering and margins.</p>
+
+<div class="demo">
+    <a href="https://github.com/tmwagency/kickoff/blob/master/scss/_typography.scss" class="demo-src">_typography.scss</a>
+
+    <div class="demo-visual">
+        <ul class="unstyled">
+            <li>ul list item 1</li>
+            <li>ul list item 2</li>
+            <li>ul list item 3</li>
+            <li>ul list item 4</li>
+        </ul>
+        <br/>
+        <ol class="unstyled">
+            <li>ol list item 1</li>
+            <li>ol list item 2</li>
+            <li>ol list item 3</li>
+            <li>ol list item 4</li>
+        </ol>
+    </div>
+    <div class="demo-code">
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;unstyled&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 1<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 2<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 3<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 4<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+
+<span class="nt">&lt;ol</span> <span class="na">class=</span><span class="s">&quot;unstyled&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 1<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 2<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 3<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>list item 4<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span></code></pre></div>
+
+    </div>
+</div>
+
+<hr>
+
+<p><a name="dl"></a></p>
+
+<h3>Definition list</h3>
+
+<div class="demo">
+    <a href="https://github.com/tmwagency/kickoff/blob/master/scss/_typography.scss" class="demo-src">_typography.scss</a>
+
+    <div class="demo-visual">
+        <dl>
+            <dt>Definition name</dt>
+            <dd>Definition value</dd>
+            <dt>Definition name</dt>
+            <dd>Definition value</dd>
+            <dd>Definition value</dd>
+            <dt>Definition name</dt>
+            <dt>Definition name</dt>
+            <dd>Definition value</dd>
+        </dl>
+    </div>
+    <div class="demo-code">
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;dl&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Definition name<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>Definition value<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Definition name<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>Definition value<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>Definition value<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Definition name<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Definition name<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>Definition value<span class="nt">&lt;/dd&gt;</span>
+<span class="nt">&lt;/dl&gt;</span></code></pre></div>
+
+    </div>
+</div>
+
+<hr>
+
+<p><a name="hdl"></a>
+<h3>Horizontal definition list</h3>
+<p>Add a <code>.dl-horizontal</code> class to your definition list (<code>&lt;dl&gt;</code>) to make the values (<code>&lt;dd&gt;</code>) float beside the name (<code>&lt;dt&gt;</code>)</p></p>
+
+<div class="demo">
+    <a href="https://github.com/tmwagency/kickoff/blob/master/scss/_typography.scss" class="demo-src">_typography.scss</a>
+
+    <div class="demo-visual">
+        <dl class="dl-horizontal">
+            <dt>Definition name</dt>
+            <dd>Definition value</dd>
+            <dt>Definition name</dt>
+            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa pariatur animi totam, amet.</dd>
+            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus aut consequuntur, recusandae delectus voluptatibus.</dd>
+            <dt>Definition name</dt>
+            <dt>Definition name</dt>
+            <dd>Definition value</dd>
+        </dl>
+    </div>
+    <div class="demo-code">
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;dl</span> <span class="na">class=</span><span class="s">&quot;dl-horizontal&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Definition name<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>Definition value<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Definition name<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>Definition value<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>Definition value<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Definition name<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Definition name<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>Definition value<span class="nt">&lt;/dd&gt;</span>
+<span class="nt">&lt;/dl&gt;</span></code></pre></div>
+
+    </div>
+</div>
+
+			</article>
+
+			
+				<h3 class="nextTitle">Where next?</h3>
+				<ul class="blockLinks l-blockGrid l-blockGrid--2up">
+					
+					<li>
+						
+							<a href="grids.html" class="blockLink">
+						
+
+							<h3>Grids demo</h3>
+							<p>Find out about our grid and how to use it</p>
+
+
+						
+							</a>
+						
+						</a>
+					</li>
+					
+					<li>
+						
+							<a href="components.html" class="blockLink">
+						
+
+							<h3>Components demo</h3>
+							<p>See all the included components with the framework</p>
+
+
+						
+							</a>
+						
+						</a>
+					</li>
+					
+				</ul>
+			
+
+		</div>
+	</div>
+</div>
+<footer class="docs-footer">
+	These docs are constantly evolving. If you have any problems or questions regarding them, please <a href="https://github.com/tmwagency/kickoff/issues/new">file an issue</a> on Github.
+</footer>
+
+
+		</section>
+
+		<footer class="footer text-centre">
+	<div class="l-container">
+		<h2 class="wideBoy-title">Try Kickoff on your next project, its easy. <a href="/kickoff/learn/get.html">Download it&nbsp;now</a></h2>
+
+		<ul class="footer-nav l-list--centred unstyled">
+			<li><a href="https://github.com/tmwagency/kickoff/" data-trak='{"category":"Footer link","action":"Github link"}'>Github</a></li>
+			<li><a href="https://github.com/tmwagency/kickoff/issues" data-trak='{"category":"Footer link","action":"Github issue"}'>Issues</a></li>
+			<li><a href="https://github.com/tmwagency/kickoff/releases" data-trak='{"category":"Footer link","action":"Github releases"}'>Releases</a></li>
+			<li><a href="http://tech.tmw.co.uk" data-trak='{"category":"Footer link","action":"tech.tmw"}'>tech.tmw</a></li>
+		</ul>
+
+		<p>Kickoff is <a href="http://github.com/tmwagency/kickoff">free and open-source</a> and maintained by <a href="http://mrmartineau.co.uk">Zander Martineau</a>, <a href="http://ashleynolan.co.uk">Ashley Nolan</a>, the <a href="http://twitter.com/tmwTechTeam">@tmwTechTeam</a> and <a href="https://github.com/tmwagency/kickoff/graphs/contributors">a few other</a> kind souls.</p>
+
+		<p><small>If you would like to contribute to the this documentation, please see our <a href="/kickoff/learn/editing.html">editing instructions</a></small></p>
+	</div>
+</footer>
+
+
+	<!-- <div class="giant-logo">Kickoff</div> -->
+
+	<!--[if lte IE 8]>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/js/libs/jquery.min.js"><\/script>')</script>
+	<![endif]-->
+	<!--[if gt IE 8]><!-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/kickoff/js/libs/jquery.2.min.js"><\/script>')</script>
+	<!--<![endif]-->
+
+	<script src="/kickoff/js/dist/app.min.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-621491-45', 'tmwagency.github.io');
+	  ga('send', 'pageview');
+	</script>
+
+	<script type="text/javascript">
+	  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+	  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+	  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+	  })(window,document,'script','//s.swiftypecdn.com/install/v1/st.js','_st');
+
+	  _st('install','-Sy4tMEnsDi4kHt3CWot');
+	</script>
+</body>
+</html>
+
