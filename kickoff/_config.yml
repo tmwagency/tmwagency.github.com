@@ -13,5 +13,5 @@ paginate_path: /page:num
 
 # destination: ./kickoff
 encoding: "utf-8"
-# gems:
-  # - jekyll-redirect-from
+gems:
+  - jekyll-redirect-from
