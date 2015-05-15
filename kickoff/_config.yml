@@ -11,7 +11,7 @@ timezone: Europe/London
 paginate: 8
 paginate_path: /page:num
 
-destination: ./kickoff
+# destination: ./kickoff
 encoding: "utf-8"
-gems:
-  - jekyll-redirect-from
+# gems:
+  # - jekyll-redirect-from
